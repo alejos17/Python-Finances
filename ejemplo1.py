@@ -8,3 +8,4 @@ data=wb.DataReader(tickers, 'yahoo',start_date,end_date)  #.to_csv("Datos.csv") 
 returns = data.pct_change() 
 print(returns)
 
+group_labels = ["", "", "", "", "", "", "", "", "", "",]
